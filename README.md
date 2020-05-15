@@ -9,3 +9,20 @@ we can use the command line to run it, just like setting jdk.
 REVIEWER,REVIEWTOPIC.
 
 3.Using the select * from to look for the table we created and take advantage of the screencast to record it.
+
+
+
+Part 2: java application
+
+Queries:
+1.return the some columns of paper and author tables;
+2.Get all review and data of that
+3.use a count method
+4.cretate(insert) new paper submission in both author and paper, I realized I made some mistakes in the original tables and redo it again by recording a new cast.
+5.delete first row by authorid, successful reason: not sure but I use the excute(sql) instead of the excutequery(sql), beside, I did not assign the foreign key among all the attributes in author table.
+
+Step:
+1. jdk already installed;
+2.download the independent platform of J connector,
+3.write java code 
+4.run and doublecheck
