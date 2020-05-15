@@ -26,3 +26,6 @@ Step:
 2.download the independent platform of J connector,
 3.write java code 
 4.run and doublecheck
+
+
+About the create and insert part, I used the"//" to cover the code in case of some compile errors.
