@@ -33,9 +33,8 @@ INSERT INTO paper (paperid, title, abstracts, filename) VALUES
 INSERT INTO review (reviewid, paperid, meritscore, readabilityscore, originalityscore, relevancescore, revieweremailAddr, recommendation, authorfeedback, commiteefeedback)
  VALUES (5, 1, 8, 8, 8, 8, 'manutd@gmail.com', NULL, NULL, NULL),
 (6, 3, 8, 8, 8, 8, 'MANCIT@gmail.com', NULL, NULL, NULL),
-(8, 4, 8, 8, 8, 8, 'LBQ@gmail.com', NULL, NULL, NULL),
-(9, 7, 8, 8, 8, 8, 'CTE@gmail.com', NULL, NULL, NULL);
-
+(8, 4, 8, 8, 8, 8, 'LBQ@gmail.com','published', NULL, NULL),
+(9, 7, 8, 8, 8, 8, 'CTE@gmail.com', 'published', NULL, NULL);
 
 
 
