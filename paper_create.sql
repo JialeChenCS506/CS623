@@ -1,7 +1,9 @@
 create database paperreviews;
 USE paperreviews;
 
-create table paper(paperid INTEGER(10), title VARCHAR(30), abstract VARCHAR(300), filename VARCHAR(30),PRIMARY KEY(paperid));
+
+
+create table author(authorid INTEGER(10), emailaddr VARCHAR(30), firstname VARCHAR(30), lastname VARCHAR(30),PRIMARY KEY(authorid));
 
 
 
