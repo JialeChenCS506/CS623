@@ -8,7 +8,7 @@ create table paper(paperid INTEGER(10), title VARCHAR(30), abstract VARCHAR(300)
 
 
 
-create table paper(paperid INTEGER(10), title VARCHAR(30), abstract VARCHAR(300), filename VARCHAR(30),PRIMARY KEY(paperid));
+create table paper(paperid INTEGER(10), title VARCHAR(30), abstracts VARCHAR(300), filename VARCHAR(30),PRIMARY KEY(paperid));
 
 
 
