@@ -28,4 +28,6 @@ Step:
 4.run and doublecheck
 
 
+The schema has been several times when I realiazed some evident errors.
+ "ResultSet rs = stmt.executeQuery(sql)" is mainly used for the queries and "stmt.execute(sql)" is for the last 2 queries.
 About the create and insert part, I used the"//" to cover the code in case of some compile errors.
