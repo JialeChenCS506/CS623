@@ -17,7 +17,7 @@ INSERT INTO author (emailaddr, firstname, lastname) VALUES
 
 
 
-INSERT INTO paper (paperid, title, abstract, filename) VALUES
+INSERT INTO paper (paperid, title, abstracts, filename) VALUES
 (1, 'ssdaaff', NULL, NULL),
 (3, 'phdasdaa', NULL, NULL),
 (4, 'lcksv', NULL, NULL),
