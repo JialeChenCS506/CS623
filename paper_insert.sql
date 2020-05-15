@@ -4,11 +4,11 @@
 
 
 
-INSERT INTO author (emailaddr, firstname, lastname) VALUES
-('ab@gmail.com', 'a', 'b'),
-('c.d@gmail.com', 'c', 'd'),
-('e.f@gmail.com', 'e', 'f'),
-('g.h@gmail.com', 'g', 'h');
+INSERT INTO author (authorid,emailaddr, firstname, lastname) VALUES
+(1,'ab@gmail.com', 'a', 'b'),
+(3,'c.d@gmail.com', 'c', 'd'),
+(4,'e.f@gmail.com', 'e', 'f'),
+(7,'g.h@gmail.com', 'g', 'h');
 
 
 
